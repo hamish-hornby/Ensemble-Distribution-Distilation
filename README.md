@@ -5,7 +5,6 @@ This is done by training a single CNN to parameterise a mixture of Beta Distribu
 
 ## Dataset
 CheXpert Dataset : https://stanfordmlgroup.github.io/competitions/chexpert/
-{example_input.jpg}
 ![alt text](example_input.jpg)
 
 ## Code
