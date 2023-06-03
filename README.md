@@ -1,5 +1,5 @@
 # Ensemble-Distribution-Distilation
-This repo contains some code files used for my Masters Thesis “Uncertainty Estimation in Medical Imaging” {Dissertation.pdf}. The Dataset is a multi-class image dataset of chest X-rays. The main contribution of this project was extending the application of Ensemble Distribution Distillation to a multiclass classification problem where numerous positive labels are possible for an individual exemplar.
+This repo contains some code files used for my Masters Thesis [“Uncertainty Estimation in Medical Imaging”](Dissertation.pdf). The Dataset is a multi-class image dataset of chest X-rays. The main contribution of this project was extending the application of Ensemble Distribution Distillation to a multiclass classification problem where numerous positive labels are possible for an individual exemplar.
 
 This is done by training a single CNN to parameterise a mixture of Beta Distributions, which requires the derivation of a custom loss function. The purpose of this is to preserve both the superior accuracy and uncertainty estimation provided by ensembling multiple CNN's while reducing the computational requirements by only using one model for inference.
 
